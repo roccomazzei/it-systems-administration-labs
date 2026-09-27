@@ -1,27 +1,25 @@
 # 01 — Networking
 
-## Course Scope
+## Status
 
-Networking fundamentals and hands-on Cisco Packet Tracer practice.
+✅ Networking foundation completed.
 
-Key topics:
+## Skills Practised
 
 - IPv4 addressing
 - Subnetting
-- Ethernet switching
-- ARP
 - VLANs
 - Access ports
 - 802.1Q trunking
+- Router-on-a-stick
 - Inter-VLAN routing
-- Routing fundamentals
-- NAT
-- ACLs
-- Network troubleshooting
+- ARP
+- ICMP
+- Cisco IOS verification
+- Structured troubleshooting
 
-## Portfolio Projects
+## Portfolio Project
 
 - [Cisco Packet Tracer Networking Capstone](cisco-packet-tracer-capstone/) — ✅ Completed
-- [Windows Network Troubleshooting](windows-network-troubleshooting/) — 🚧 In Progress
 
-Additional Packet Tracer exercises are used as practice before moving to the next module.
+Additional Packet Tracer exercises are used for practice and reinforcement, but only substantial projects are kept as portfolio items.
