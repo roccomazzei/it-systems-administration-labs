@@ -16,7 +16,7 @@ A skill is considered portfolio-ready only after it has been used in a practical
 
 | Area | Status |
 |---|---|
-| Homelab & Lab Architecture | ⏭️ Next |
+| Homelab & Lab Architecture | 🚧 In Progress |
 | Networking Foundations | ✅ Foundation completed |
 | Windows Server & Active Directory | ⏭️ Next major block |
 | Windows 11 / Endpoint Administration | 🚧 Troubleshooting lab started |
@@ -235,6 +235,6 @@ it-systems-administration-labs/
 
 The networking foundation project is complete.
 
-The next major objective is to build the **homelab** and begin **Windows Server 2025 + Active Directory**, while completing the existing Windows troubleshooting lab.
+The **homelab architecture is now documented and in progress**. The next major objective is to deploy the Windows Server environment and begin **Windows Server 2025 + Active Directory**, while completing the existing Windows troubleshooting lab.
 
 The long-term objective is to become employable in **Junior System Administration / Infrastructure** roles while building a strong technical foundation for a future **SOC Analyst / Security Operations** path.
