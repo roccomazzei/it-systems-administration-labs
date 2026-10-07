@@ -6,29 +6,29 @@ Build a reusable virtual lab that supports the rest of the Systems Administratio
 
 The homelab is designed to provide a realistic environment for Windows Server, Active Directory, endpoint administration, Linux, virtualization, backup, monitoring and later security labs.
 
-## Current Hardware
+## Current Lab Host
 
-Primary system:
+The homelab is currently running on a **Windows x64 PC** using **VMware Workstation Pro** as the virtualization platform.
 
-- **MacBook Pro M1**
-- ARM64 architecture
+## Current Windows Server VM
 
-The Apple Silicon architecture introduces an important constraint:
+The first Windows Server 2025 virtual machine is configured with:
 
-- Windows 11 ARM and Linux ARM can run efficiently through virtualization.
-- Windows Server 2025 is x64-only, so on the Mac it must be **emulated** rather than virtualized natively.
+| Resource | Allocation |
+|---|---:|
+| Memory | 8 GB RAM |
+| CPU | 4 virtual processors |
+| Virtual disk | 40 GB |
+| Hypervisor | VMware Workstation Pro |
+| Guest OS | Windows Server 2025 x64 |
 
-When an x64 PC is available, Windows Server workloads can be moved there for better performance. If only the Mac is available, UTM/QEMU can be used to emulate Windows Server 2025 x64.
+This VM will be used as the starting point for the Active Directory lab and will progressively host services such as AD DS, DNS, DHCP and Group Policy.
 
 ## Virtualization Strategy
 
-Planned approach on the Mac:
+VMware Workstation Pro is the primary hypervisor for the current lab.
 
-- **UTM / QEMU** for Windows Server 2025 x64 emulation
-- ARM virtualization for Windows 11 ARM
-- ARM virtualization for Linux
-
-This allows the lab to remain usable even when only Apple Silicon hardware is available.
+Additional virtual machines will be added as required by the exercises, including a Windows client and, later, additional servers or Linux systems. Resource allocation will be adjusted based on the number of machines running simultaneously.
 
 ## Planned Lab Architecture
 
