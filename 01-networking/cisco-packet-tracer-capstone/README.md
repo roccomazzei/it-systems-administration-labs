@@ -1,3 +1,5 @@
+<p align="right"><strong>🇬🇧 English</strong> · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 # Networking Foundation Capstone - Cisco Packet Tracer
 
 ## Objective
