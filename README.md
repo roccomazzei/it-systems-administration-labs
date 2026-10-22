@@ -1,3 +1,5 @@
+<p align="right"><strong>🇬🇧 English</strong> · <a href="README_IT.md">🇮🇹 Italiano</a></p>
+
 # IT Systems Administration Labs
 
 Hands-on portfolio focused on **System Administration, IT Infrastructure, Microsoft environments, Networking and Cloud**, with a progressive extension toward **Cybersecurity and Security Operations**.
